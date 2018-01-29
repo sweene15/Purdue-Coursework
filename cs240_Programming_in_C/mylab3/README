@@ -1,0 +1,11 @@
+As of the time of submission, both questions 3 and 4 are incomplete.
+In addition, this assignment is being turned in 3 days late, using all 3 late days provided in the summer semester.
+Some quick details on the incomplete questions (if they are to be graded for partial credit)
+
+3) First and Second calls are present, third was not able to be implemented., run_func_double.c not created due to this. Ended up moving on and spending a lot more time on #4, which unfortunately prevented me from coming back to 3.
+
+4) Progress was slow in this, and was going well, until multiple aspects broke. Just before creation of the Makefile, I noticed I had not covered all of my bases concerning invalid cases, and I went back to fix those scenarios. However, when digging through and altering aspects of read_vecs.c, I broke... something. The problems focused exclusively around the integer vecSize, which was what I called the first integer passed through both read_vecs and calc_dist.
+ for whatever reason, vecSize was suddenly set to a static length, 3, causing a maximum of 3 variables to be inputted into any given vector. After some time in my attempts to understand and fix the issue, I decided to remove the newer sets of code that I had added on this most recent pass-through (the code concerned with faulty cases). In this effort, I succeeded in affecting my code even further, and vecSize was now seemingly set to 0.
+after pouring through my code for excessive lengths of time, I have yet to find what exactly is causing this issue, and am now approaching the absolute deadline for handing in this Lab. So, I'm handing it in incomplete, and hope that I can get some points for the work that I have produced.
+
+Thanks for your time, and apologies if this is a nightmare to grade.

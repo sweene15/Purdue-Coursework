@@ -1,0 +1,8 @@
+Connor Sweeney sweene15@purdue.edu
+
+Project Name (tentative): Elementary Linear Algebra Calculator
+Desc: Build a web app that can perform basic matrix-based calculations (rref, determinent, basis) with a focus on providing the user with a clear,
+  concise, step-by-step process of the operations performed by the calculator to reach the result. Emphasis will be placed on ease-of-use
+  and UI aesthetics. 
+Tech Used (tentative): HTML5, CSS, AngularJS
+

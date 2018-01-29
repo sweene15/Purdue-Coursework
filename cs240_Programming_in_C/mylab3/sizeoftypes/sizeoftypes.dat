@@ -1,0 +1,16 @@
+Run on a Windows 10 PC on a VM using VirtualBox, which is using Ubuntu 64-bit. Compiled using gcc version 5.3.1 20160413 (Ubuntu 5.3.1 -14ubuntu2)
+Char: 1
+Int: 4
+Float: 4
+Double: 8
+Unsigned Char: 1
+Unsigned Int: 4
+Signed Int: 4
+Signed Char: 1
+Long: 8
+Long Int: 8
+Long Double: 16
+Short: 2
+Short Int: 2
+
+Identical to output produced by lab PCs

@@ -1,0 +1,196 @@
+{% load staticfiles %}
+<html>
+   	<head>
+	   
+		<title> Linear Algebra Workshop </title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+       		<link rel="stylesheet" href="{% static 'css/core.css' %}">
+	</head>
+	<body>
+		<header>
+			<h1 class = "header_title"> Linear Algebra Workshop </h1>
+			<div class = "login_block">
+	   	   	{% if user.is_authenticated %}
+				<p> Hello, {{ user.username }} </p>
+     	   			<a href="{% url 'logout' %}" class ="logout_button">Logout</a>
+     			{% else %}
+       				 <a href="{% url 'login' %}">Login</a> / <a href="{% url 'signup' %}">Signup</a>
+     			{% endif %}
+			</div>
+
+		</header>
+
+		<div class="inputblock">
+			<form action="{% url 'size' %}" method="POST" class="size_Entry">{% csrf_token %}
+				<p class = "entry_form">
+					{{ size_form }}
+					<button type="submit" class"save_input">Enter</button>
+				</p>
+			</form>
+		
+			<form action="{% url 'new_entry' %}" method="POST" class="data_Entry">{% csrf_token %}
+				<p class="inner_entry_form">
+					<div class="mat_name">
+					{% if new_entry_form.name %}
+						{{new_entry_form.name.errors}}
+						{{new_entry_form.name.label_tag}} {{new_entry_form.name}}
+					{% endif %}
+					</div>
+					<p class="row1">
+					{% if new_entry_form.row1element1 %}
+						{{new_entry_form.row1element1.errors}}
+						{{new_entry_form.row1element1}}
+					{% endif %}
+					{% if new_entry_form.row1element2 %}
+						{{new_entry_form.row1element2.errors}}
+						{{new_entry_form.row1element2}}
+					{% endif %}
+					{% if new_entry_form.row1element3 %}
+						{{new_entry_form.row1element3.errors}}
+						{{new_entry_form.row1element3}}
+					{% endif %}
+					{% if new_entry_form.row1element4 %}
+						{{new_entry_form.row1element4.errors}}
+						{{new_entry_form.row1element4}}
+					{% endif %}
+					{% if new_entry_form.row1element5 %}
+						{{new_entry_form.row1element5.errors}}
+						{{new_entry_form.row1element5}}
+					{% endif %}
+					</p>
+					<p class="row2">
+					{% if new_entry_form.row2element1 %}
+						{{new_entry_form.row2element1.errors}}
+						{{new_entry_form.row2element1}}
+					{% endif %}
+					{% if new_entry_form.row2element2 %}
+						{{new_entry_form.row2element2.errors}}
+						{{new_entry_form.row2element2}}
+					{% endif %}
+					{% if new_entry_form.row2element3 %}
+						{{new_entry_form.row2element3.errors}}
+						{{new_entry_form.row2element3}}
+					{% endif %}
+					{% if new_entry_form.row2element4 %}
+						{{new_entry_form.row2element4.errors}}
+						{{new_entry_form.row2element4}}
+					{% endif %}
+					{% if new_entry_form.row2element5 %}
+						{{new_entry_form.row2element5.errors}}
+						{{new_entry_form.row2element5}}
+					{% endif %}
+					</p>
+					<p class="row3">
+					{% if new_entry_form.row3element1 %}
+						{{new_entry_form.row3element1.errors}}
+						{{new_entry_form.row3element1}}
+					{% endif %}
+					{% if new_entry_form.row3element2 %}
+						{{new_entry_form.row3element2.errors}}
+						{{new_entry_form.row3element2}}
+					{% endif %}
+					{% if new_entry_form.row3element3 %}
+						{{new_entry_form.row3element3.errors}}
+						{{new_entry_form.row3element3}}
+					{% endif %}
+					{% if new_entry_form.row3element4 %}
+						{{new_entry_form.row3element4.errors}}
+						{{new_entry_form.row3element4}}
+					{% endif %}
+					{% if new_entry_form.row3element5 %}
+						{{new_entry_form.row3element5.errors}}
+						{{new_entry_form.row3element5}}
+					{% endif %}
+					</p>
+					<p class="row4">
+					{% if new_entry_form.row4element1 %}
+						{{new_entry_form.row4element1.errors}}
+						{{new_entry_form.row4element1}}
+					{% endif %}
+					{% if new_entry_form.row4element2 %}
+						{{new_entry_form.row4element2.errors}}
+						{{new_entry_form.row4element2}}
+					{% endif %}
+					{% if new_entry_form.row4element3 %}
+						{{new_entry_form.row4element3.errors}}
+						{{new_entry_form.row4element3}}
+					{% endif %}
+					{% if new_entry_form.row4element4 %}
+						{{new_entry_form.row4element4.errors}}
+						{{new_entry_form.row4element4}}
+					{% endif %}
+					{% if new_entry_form.row4element5 %}
+						{{new_entry_form.row4element5.errors}}
+						{{new_entry_form.row4element5}}
+					{% endif %}
+					</p>
+					<p class="row5">
+					{% if new_entry_form.row5element1 %}
+						{{new_entry_form.row5element1.errors}}
+						{{new_entry_form.row5element1}}
+					{% endif %}
+					{% if new_entry_form.row5element2 %}
+						{{new_entry_form.row5element2.errors}}
+						{{new_entry_form.row5element2}}
+					{% endif %}
+					{% if new_entry_form.row5element3 %}
+						{{new_entry_form.row5element3.errors}}
+						{{new_entry_form.row5element3}}
+					{% endif %}
+					{% if new_entry_form.row5element4 %}
+						{{new_entry_form.row5element4.errors}}
+						{{new_entry_form.row5element4}}
+					{% endif %}
+					{% if new_entry_form.row5element5 %}
+						{{new_entry_form.row5element5.errors}}
+						{{new_entry_form.row5element5}}
+					{% endif %}
+					</p>
+
+
+					{% if new_entry_form %}
+      		  			<button type="submit" class="save_entry_input">Enter</button>
+					{% endif %}
+				</p>
+    			</form>
+		</div>
+			<form action="{% url 'remove' %}" method="POST" class="remove_Entry">{% csrf_token %}
+				<p class="inner_form">
+					{{ remove_form }}
+      		  			<button type="submit" class="save_input">Enter</button>
+				</p>
+    			</form>
+			<form action="{% url 'viewer' %}" method="POST" class="view_Entry">{% csrf_token %}
+				<p class="inner_form">
+					{{ viewer_form }}
+      		  			<button type="submit" class="save_input">Enter</button>
+				</p>
+    			</form>
+
+		<div class='viewer'>
+			<p>{{array_row0}}</p>
+			<p>{{array_row1}}</p>
+			<p>{{array_row2}}</p>
+			<p>{{array_row3}}</p>
+			<p>{{array_row4}}</p>
+		</div>
+
+			<form action="{% url 'input' %}" method="POST" class="input_Entry">{% csrf_token %}
+				<p class="inner_form">	
+        				{{ input_form }}
+      		  			<button type="submit" class="save_input">Enter</button>
+				</p>
+    			</form>
+
+
+		<div class = 'output'>
+			<p>{{output0}}</p>
+			<p>{{output1}}</p>
+			<p>{{output2}}</p>
+			<p>{{output3}}</p>
+			<p>{{output4}}</p>
+		</div>
+	</body>
+
+</html>

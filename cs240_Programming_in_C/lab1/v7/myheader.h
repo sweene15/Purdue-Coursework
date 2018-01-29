@@ -1,0 +1,1 @@
+float mycalc(float, float);

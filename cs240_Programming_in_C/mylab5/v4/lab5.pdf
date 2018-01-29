@@ -1,0 +1,5 @@
+So the main difference between this problem and the last one is that a fork is used, so the child process is terminated rather than the entire process.
+This termination is caused by execl or in this case execlp, which instructs the shell to exec and l(eave).
+For the two examples we were asked to run through the shell:
+dprompt has the same effect it always has, and resets the prompt to '>'.
+/bin/date successfully prints, and the program continues to run, due to the fact that it is isolated by a fork. Unfortunately, any code in the fork after the execlp call (such as the fprintf statement) do not execute, and are skipped.

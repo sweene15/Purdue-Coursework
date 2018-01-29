@@ -1,0 +1,6 @@
+Explanation for behavior in Problem 3
+
+In this example, we replace system() with execl().
+execl() stands for execute and leave, so when this command is run, the entire executable is stopped just afterward. 
+When execl() is not called, e.g. when commands from the custom shell are run such as "dprompt", the program completes the action and resets, ready to recieve another command.
+When an execl() command is run however, the program stops entirely after the completion of the command. In the case of /bin/date, the date is printed and the shell quits. Do to this behavior, the "Hello World?" string is never printed.

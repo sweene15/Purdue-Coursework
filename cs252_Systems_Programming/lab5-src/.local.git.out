@@ -1,0 +1,782 @@
+M	Makefile
+[master f721986] Commit
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+M	Makefile
+D	daytime-server
+D	daytime-server.o
+D	hello.o
+D	hello.so
+D	use-dlopen
+D	use-dlopen.o
+[master 1e33e01] Commit
+ 7 files changed, 1 insertion(+), 2 deletions(-)
+ delete mode 100755 daytime-server
+ delete mode 100644 daytime-server.o
+ delete mode 100644 hello.o
+ delete mode 100755 hello.so
+ delete mode 100755 use-dlopen
+ delete mode 100644 use-dlopen.o
+M	Makefile
+[master fa13f86] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	Makefile
+[master b959d8c] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	Makefile
+[master 4480899] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+[master d881868] Commit
+ 1 file changed, 1 deletion(-)
+[master 1d21f5c] Commit
+ 1 file changed, 1 insertion(+)
+[master cc8d4cd] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 04854cf] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+[master b427b18] Commit
+ 2 files changed, 96 insertions(+), 7 deletions(-)
+ rewrite myhttpd.cc (87%)
+[master d072d02] Commit
+ 2 files changed, 9 insertions(+)
+[master 9204e65] Commit
+ 1 file changed, 2 insertions(+)
+[master 943c64a] Commit
+ 1 file changed, 2 insertions(+)
+[master 05e59a8] Commit
+ 2 files changed, 26 insertions(+)
+[master 9ca4f36] Commit
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+[master 19192a5] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master ca2863f] Commit
+ 2 files changed, 14 insertions(+), 5 deletions(-)
+[master 807462f] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+[master 64146d8] Commit
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+[master a5cdc00] Commit
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+[master 16d8072] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 686744d] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 88021b5] Commit
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master 9c3f630] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 1e83ada] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 24f93c7] Commit
+ 2 files changed, 10 insertions(+), 5 deletions(-)
+[master eed0fbd] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 6648d12] Commit
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+[master f170262] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 09d6184] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 7012e74] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master bec60b2] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 761ef41] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 96f97ca] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master c1f639c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e61365f] Commit
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+[master 7277f7d] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master a532ffd] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 03ec7c8] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 60fcc10] Commit
+ 2 files changed, 21 insertions(+), 1 deletion(-)
+[master 95f00aa] Commit
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+[master 8e905b9] Commit
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+[master b1c821d] Commit
+ 2 files changed, 4 insertions(+)
+[master a692d74] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 8607531] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 9c16c48] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 836fe2d] Commit
+ 1 file changed, 2 insertions(+)
+[master 0ae9776] Commit
+ 2 files changed, 3 insertions(+)
+[master dfdfea2] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master d233b7e] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 6101be9] Commit
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+[master b25f418] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master f0afa07] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 2591fe6] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master eafe91f] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master d15f588] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 39d5fae] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 1d8c354] Commit
+ 2 files changed, 3 insertions(+)
+[master ebb1929] Commit
+ 2 files changed, 4 insertions(+)
+[master c6079cb] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master e3bcad6] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master c926f97] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 61aa2bc] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master dc4d78b] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master d746cbf] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master b20f3f9] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 46ff08e] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master c788c4e] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 4814e71] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 4a9a76f] Commit
+ 2 files changed, 3 insertions(+)
+[master 07bf0e5] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 64a27d5] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 1bf4c90] Commit
+ 2 files changed, 3 insertions(+)
+[master 5fc1000] Commit
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+[master 845f18d] Commit
+ 2 files changed, 3 insertions(+)
+[master 13980af] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 36ce856] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master a15b67e] Commit
+ 2 files changed, 77 insertions(+), 14 deletions(-)
+[master 32d852a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 430f3db] Commit
+ 1 file changed, 2 insertions(+)
+[master 45d238f] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master f8c254e] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 58c285a] Commit
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+[master 00e5ed1] Commit
+ 1 file changed, 2 insertions(+)
+[master 2038b81] Commit
+ 1 file changed, 2 insertions(+)
+[master 4cf8f0e] Commit
+ 1 file changed, 2 insertions(+)
+[master 9fa83ab] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 8c228f5] Commit
+ 1 file changed, 2 insertions(+)
+[master 88bc976] Commit
+ 1 file changed, 2 insertions(+)
+[master f563d92] Commit
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+[master 107ea5a] Commit
+ 2 files changed, 4 insertions(+)
+[master f80735c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 10721be] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e4b47c2] Commit
+ 2 files changed, 4 insertions(+)
+[master c37ae16] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 381ee19] Commit
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+[master 6e88639] Commit
+ 1 file changed, 2 insertions(+)
+[master 52c65fa] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master ea24dea] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 7c64ff4] Commit
+ 2 files changed, 4 insertions(+)
+[master 77382d3] Commit
+ 2 files changed, 3 insertions(+)
+[master 34ccdfc] Commit
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+[master d110524] Commit
+ 2 files changed, 9 insertions(+), 5 deletions(-)
+[master 06276ec] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 6ac05f3] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 03f4ce6] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d161d1b] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e666dc8] Commit
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+[master 206c487] Commit
+ 2 files changed, 37 insertions(+), 5 deletions(-)
+[master 97c7d28] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d140473] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master c1e321e] Commit
+ 2 files changed, 4 insertions(+)
+[master 762714d] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 4d4ab47] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 6448b7e] Commit
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+[master 986d992] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 52bccee] Commit
+ 1 file changed, 2 insertions(+)
+[master 8324415] Commit
+ 1 file changed, 2 insertions(+)
+[master 20bb689] Commit
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+[master f979913] Commit
+ 1 file changed, 2 insertions(+)
+[master 366b9b1] Commit
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+[master 2e719c5] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master a9ce8ba] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 05fe754] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master a48d24e] Commit
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+[master 641ecc9] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 8294d80] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 0deefde] Commit
+ 1 file changed, 2 insertions(+)
+[master af885d8] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master e938aa5] Commit
+ 1 file changed, 2 insertions(+)
+[master 2367cce] Commit
+ 1 file changed, 2 insertions(+)
+[master 9f0a66c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 83853ec] Commit
+ 2 files changed, 3 insertions(+)
+[master 87f63b5] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 3018a6e] Commit
+ 2 files changed, 3 insertions(+)
+[master ef53b7f] Commit
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+[master 122f8eb] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master b9019e9] Commit
+ 1 file changed, 2 insertions(+)
+[master 466288a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 7f9cedf] Commit
+ 2 files changed, 3 insertions(+)
+[master 41f880e] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 4b3eca2] Commit
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.myhttpd.cc.swp
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master 7ce618d] Commit
+ 1 file changed, 14 insertions(+)
+[master 825ac80] Commit
+ 2 files changed, 10 insertions(+), 7 deletions(-)
+[master f25ca29] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master b127e6d] Commit
+ 1 file changed, 2 insertions(+)
+[master 2b2e713] Commit
+ 2 files changed, 9 insertions(+), 3 deletions(-)
+[master 8e002d0] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master b8afb4c] Commit
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+[master 88a5d34] Commit
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+[master 74f2fcb] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e967989] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 879cdf4] Commit
+ 1 file changed, 2 insertions(+)
+[master 8da5877] Commit
+ 2 files changed, 2 insertions(+), 8 deletions(-)
+[master 3cabf74] Commit
+ 1 file changed, 2 insertions(+)
+[master f582ee1] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e5d94e4] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 18832d4] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 7c6b0ef] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 860b083] Commit
+ 1 file changed, 2 insertions(+)
+[master 1cf5af5] Commit
+ 2 files changed, 39 insertions(+), 16 deletions(-)
+[master 366b153] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 6e05dc9] Commit
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+[master dc7aab2] Commit
+ 2 files changed, 12 insertions(+)
+[master 6e0a67d] Commit
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+[master 29d7dca] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 3db0f1b] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master dcfb04a] Commit
+ 2 files changed, 25 insertions(+), 4 deletions(-)
+[master ef34622] Commit
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+[master c3abc36] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d2b4c11] Commit
+ 1 file changed, 2 insertions(+)
+[master b47c61b] Commit
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+[master 31dde37] Commit
+ 2 files changed, 11 insertions(+), 7 deletions(-)
+[master c05fdd2] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 5424335] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master bdd66f6] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 304242e] Commit
+ 2 files changed, 4 insertions(+)
+[master f82d333] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master c1089ad] Commit
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+[master 825f040] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master ce18e55] Commit
+ 1 file changed, 2 insertions(+)
+[master 1dd89f7] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 100b803] Commit
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+[master 4a642fa] Commit
+ 2 files changed, 12 insertions(+), 3 deletions(-)
+[master e8e9484] Commit
+ 2 files changed, 23 insertions(+), 1 deletion(-)
+[master 7980c24] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master bc8060a] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master ffa1adc] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 99ef657] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 852cb00] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 2768b7c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 6f1a135] Commit
+ 2 files changed, 3 insertions(+)
+[master c908247] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 597a330] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master b27056c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 61f25d3] Commit
+ 2 files changed, 3 insertions(+), 6 deletions(-)
+[master e0c1d96] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 094465d] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d2e4db1] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master f0b29f9] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 52e7f2c] Commit
+ 2 files changed, 3 insertions(+)
+[master 652ed7a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master fd4b7c6] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 9f519b4] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master ce330f2] Commit
+ 2 files changed, 33 insertions(+), 1 deletion(-)
+[master af75197] Commit
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master f9559d1] Commit
+ 2 files changed, 25 insertions(+), 6 deletions(-)
+[master 1bec683] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 52b2989] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 6dbb99b] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 35fd3cc] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master dc86abd] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 44239ff] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master c79b168] Commit
+ 2 files changed, 3 insertions(+)
+[master 9de0928] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 5c2d4cb] Commit
+ 2 files changed, 4 insertions(+)
+[master 940bfbb] Commit
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+[master 9097657] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master fbd971e] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d69fdec] Commit
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+[master 0e9258a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 6cc30b5] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 10e94e4] Commit
+ 1 file changed, 2 insertions(+)
+[master 37f8f5e] Commit
+ 2 files changed, 3 insertions(+)
+[master 6c617d6] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 78a2ab2] Commit
+ 2 files changed, 3 insertions(+)
+[master be5fc79] Commit
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+[master 507573c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 52e7825] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master f330003] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master b0c3acc] Commit
+ 1 file changed, 2 insertions(+)
+[master ee06399] Commit
+ 2 files changed, 3 insertions(+)
+[master 1ca8f03] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master aed710b] Commit
+ 2 files changed, 8 insertions(+), 5 deletions(-)
+[master 9b494c1] Commit
+ 2 files changed, 22 insertions(+)
+[master 8b713ea] Commit
+ 2 files changed, 3 insertions(+)
+[master 45bd3ed] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 3005216] Commit
+ 2 files changed, 7 insertions(+)
+[master ae42c4c] Commit
+ 1 file changed, 2 insertions(+)
+[master d32b748] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 52e7632] Commit
+ 1 file changed, 2 insertions(+)
+[master e71c87f] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+[master af22f76] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master ddc7580] Commit
+ 4 files changed, 25 insertions(+), 27 deletions(-)
+ rewrite http-root-dir/cgi-bin/post-query (60%)
+ rewrite http-root-dir/cgi-bin/query (61%)
+[master 49fde37] Commit
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+[master 30020c5] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 0898123] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d56c6e2] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 9677da9] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master c71d466] Commit
+ 2 files changed, 4 insertions(+)
+[master 358713b] Commit
+ 2 files changed, 6 insertions(+), 3 deletions(-)
+[master bfabf69] Commit
+ 2 files changed, 3 insertions(+)
+[master 7e9d75d] Commit
+ 2 files changed, 4 insertions(+)
+[master a03f7f5] Commit
+ 2 files changed, 103 insertions(+), 102 deletions(-)
+[master 8aa230a] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master f178ecb] Commit
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+[master 1c77282] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master ccc0214] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master efad3a5] Commit
+ 2 files changed, 10 insertions(+), 2 deletions(-)
+[master 371de45] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 3dfe82a] Commit
+ 1 file changed, 2 insertions(+)
+[master f95f90f] Commit
+ 1 file changed, 2 insertions(+)
+[master bf392aa] Commit
+ 2 files changed, 11 insertions(+), 10 deletions(-)
+[master 0b291a0] Commit
+ 2 files changed, 4 insertions(+)
+[master 8c71874] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 5672f90] Commit
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+[master c460e66] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 2513c55] Commit
+ 1 file changed, 2 insertions(+)
+[master e3b31ec] Commit
+ 2 files changed, 8 insertions(+), 3 deletions(-)
+[master 559297a] Commit
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master 3b472cd] Commit
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+[master 063b377] Commit
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+[master b1f47ce] Commit
+ 1 file changed, 2 insertions(+)
+[master 235a76e] Commit
+ 2 files changed, 13 insertions(+), 2 deletions(-)
+[master c2f0b20] Commit
+ 2 files changed, 4 insertions(+)
+[master 1d84caf] Commit
+ 2 files changed, 29 insertions(+), 1 deletion(-)
+[master bfa8d65] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 2bb0cec] Commit
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+[master a574465] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 99ca466] Commit
+ 2 files changed, 10 insertions(+), 8 deletions(-)
+[master 16e7eb4] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 6fb7845] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 6e40996] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 8d18c43] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 5189639] Commit
+ 2 files changed, 26 insertions(+), 4 deletions(-)
+[master 81af34c] Commit
+ 2 files changed, 9 insertions(+), 4 deletions(-)
+[master 1f0833a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 261e373] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 934701f] Commit
+ 2 files changed, 4 insertions(+)
+[master 9409e09] Commit
+ 2 files changed, 9 insertions(+), 7 deletions(-)
+[master 21a3aa9] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d9242d9] Commit
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+[master 68538ec] Commit
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+[master 559ef6a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 1725b75] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master af0d01d] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 2417b79] Commit
+ 2 files changed, 10 insertions(+), 8 deletions(-)
+[master 4e76903] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master c4ae783] Commit
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 4c5125a] Commit
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+[master d60c5dc] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 35416a4] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 944391f] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master ba1a49a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 82bc3f9] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 76d02ff] Commit
+ 1 file changed, 2 insertions(+)
+[master 5e414ea] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master d65c74d] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e3200f3] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 230bb32] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 8dd94b2] Commit
+ 1 file changed, 2 insertions(+)
+[master b38a315] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master ec7379d] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master cb950d6] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 3b68f85] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master d76d60b] Commit
+ 2 files changed, 3 insertions(+)
+[master 868d93e] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 66a3ea4] Commit
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+[master 07e70dd] Commit
+ 2 files changed, 3 insertions(+)
+[master 6662471] Commit
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+[master aa0852d] Commit
+ 1 file changed, 2 insertions(+)
+[master 84aea57] Commit
+ 2 files changed, 3 insertions(+)
+[master 1411b29] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 72b9155] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 21c5636] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 99612ec] Commit
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+[master 60fd4b3] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 83530c9] Commit
+ 2 files changed, 9 insertions(+), 2 deletions(-)
+[master f1f70fa] Commit
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+[master 1752285] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 7826985] Commit
+ 1 file changed, 2 insertions(+)
+[master 42a1794] Commit
+ 2 files changed, 6 insertions(+)
+[master 6a7ef69] Commit
+ 1 file changed, 2 insertions(+)
+[master 84c5c7f] Commit
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+[master 92edd91] Commit
+ 2 files changed, 5 insertions(+), 11 deletions(-)
+[master 23af48f] Commit
+ 2 files changed, 18 insertions(+), 7 deletions(-)
+[master 1465e68] Commit
+ 2 files changed, 14 insertions(+)
+ create mode 100644 util.h
+[master f0366b2] Commit
+ 1 file changed, 3 insertions(+)
+[master 2f2ccdb] Commit
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+[master 231ba72] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+[master 5f25a03] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 4db55b4] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master f9e4cda] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master cf816dc] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master a882443] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master b018e0c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master f260cbf] Commit
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+[master 0a8276c] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master be7f5aa] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 113ddda] Commit
+ 1 file changed, 2 insertions(+)
+[master 7598fa0] Commit
+ 2 files changed, 18 insertions(+), 4 deletions(-)
+[master d1bbf3a] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master fb8ef41] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master f5b81a8] Commit
+ 2 files changed, 3 insertions(+)
+[master 051f4bb] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 426c5b9] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 60ff088] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master ec00ed9] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 5a06d81] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 1e1381e] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master de18912] Commit
+ 2 files changed, 4 insertions(+)
+[master d7107fd] Commit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 3637ae7] Commit
+ 2 files changed, 3 insertions(+)
+[master e26b6cf] Commit
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master bd2224f] Commit
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master 2c7168b] Commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 2d91be3] Commit
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+[master 73fefa3] Commit
+ 1 file changed, 2 insertions(+)

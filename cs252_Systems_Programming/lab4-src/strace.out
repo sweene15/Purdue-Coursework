@@ -1,0 +1,10 @@
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+write(1, "Hello World without syscall\n", 28) = 28				//WRITE
+write(1, "Hello World with syscall\n", 25) = 25					//SYSCALL
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 174), ...}) = 0	
+brk(NULL)                               = 0x1f9a000
+brk(0x1fbb000)                          = 0x1fbb000
+write(1, "Hello World with printf\n", 24) = 24					//PRINT
+exit_group(24)                          = ?
++++ exited with 24 +++

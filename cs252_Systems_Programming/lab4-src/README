@@ -1,0 +1,40 @@
+#################################################################
+PART 1 EXPLANATION
+
+thr1's initial output consisted of rapidly alternating A's B's
+and C's.
+When modified to include D's and E's, all that had to be done
+was to the necessary threads and place them before the printC
+call.
+
+
+thr2's problem connects back to why we had to place our 
+initiators for the D and E threads before the printC call.
+In thr2, the initiations for the threads is placed *after* the
+printC call, and are therefore never even started due to the 
+infinite loop inside of printC.
+
+#################################################################
+PART 3                                 S Time   U Time   R Time |
+-----------------------------------------------------------------
+pthread_mutex(count)                 |  2.58  |  3.33  |  3.15  |
+-------------------------------------|--------|--------|--------|
+spin_lock (count_spin with thr_yield |  0.24  |  0.74  |  0.53  |
+-------------------------------------|--------|--------|--------|
+spin_lock (count_spin w/o thr_yield  |  2.92  |  0.00  |  1.54  |
+-----------------------------------------------------------------
+1) with thr_yield included, more user time is used, as the
+threads yield for each other in user mode before entering kernel
+mode. Without thr_yield, the threads "spin" in kernel mode
+waiting for each other, using more system time but eliminating
+almost all user time. 
+
+2)in count_spin, spin locks are used, which greatly increase the
+user time of the program. In addition, when we use thr_yield 
+during each unlock to free up the processor, we keep the locks
+from spinning during their downtime, greatly decreasing the
+system time requirement as well.
+
+#################################################################
+
+

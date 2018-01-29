@@ -1,0 +1,17 @@
+
+---- Running test10 ----
+
+---- AFTER ALLOCATIONS ----
+
+---- AFTER FREES ----
+
+---- AFTER MORE ALLOCATIONS ----
+
+-------------------
+HeapSize:	4194304 bytes
+# mallocs:	20001
+# reallocs:	0
+# callocs:	0
+# frees:	5000
+
+-------------------
